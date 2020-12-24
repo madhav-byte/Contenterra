@@ -26,7 +26,7 @@ function App() {
         {cardDetail.map((card) => (
           <Card
             title={card.data.title}
-            selftext_html={card.data.selftext_html}
+            selftext_html={ card.data.selftext_html}
             url={card.data.url}
             score={card.data.score}
           />
