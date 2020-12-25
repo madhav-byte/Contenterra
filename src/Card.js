@@ -13,7 +13,7 @@ function Card({title,url,score,selftext_html}) {
         <Card1.Body>
         <div className="card-container">
          <Card1.Title> <h4>{title}</h4>  </Card1.Title> 
-     <div dangerouslySetInnerHTML={{__html:`${decoded_selftextHtml}`}}></div>   
+         <div dangerouslySetInnerHTML={{__html:`${decoded_selftextHtml}`}}></div>   
          <Card1.Link href="#"> <h5>{url} </h5></Card1.Link>  
        
             <h5>Score: {score} </h5>
